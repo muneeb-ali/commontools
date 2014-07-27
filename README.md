@@ -1,0 +1,4 @@
+python-common
+=============
+
+Common functions that are often needed but don't really belong anywhere
