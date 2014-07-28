@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-	python-common
+	commontools
 	~~~~~
 
 	:copyright: (c) 2014 by Muneeb Ali <http://muneebali.com>  
@@ -10,14 +10,14 @@
 from setuptools import setup
 
 setup(
-	name='python-common',
+	name='commontools',
 	version='0.1.0',
-	url='https://github.com/muneeb-ali/python-common',
+	url='https://github.com/muneeb-ali/commontools',
 	license='MIT',
 	author='Muneeb Ali (@muneeb)',
 	author_email='muneeb@dritte.org',
 	description="Common functions that are often needed but don't really belong anywhere",
-	packages=['common'],
+	packages=['commontools'],
 	zip_safe=False,
 	keywords = ['python', 'common', 'log', 'json'],
 	classifiers=[
