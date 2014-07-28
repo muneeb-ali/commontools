@@ -20,7 +20,7 @@ setup(
 	packages=['commontools'],
 	include_package_data=True,
 	package_data={
-        'commontools':[
+        'config':[
              'logging.json']
              },
 	zip_safe=False,
