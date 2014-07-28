@@ -5,7 +5,7 @@ Common functions that are often needed but don't really belong anywhere. To inst
 
 > pip install commontools
 
-Example use:
+Example use for easily configuring a logger:
 
 ```
 from commontools import setup_logging
