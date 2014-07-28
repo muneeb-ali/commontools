@@ -18,6 +18,11 @@ setup(
 	author_email='muneeb@dritte.org',
 	description="Common functions that are often needed but don't really belong anywhere",
 	packages=['commontools'],
+	include_package_data=True,
+	package_data={
+        'commontools':[
+             'logging.json']
+             },
 	zip_safe=False,
 	keywords = ['python', 'common', 'log', 'json'],
 	classifiers=[
