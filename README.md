@@ -1,9 +1,20 @@
-python-common
+commontools
 =============
 
-Common functions that are often needed but don't really belong anywhere
+Common functions that are often needed but don't really belong anywhere. To install:
 
-logging
+> pip install commontools
+
+Example use:
+
+```
+from commontools import setup_logging
+import logging
+setup_logging()
+log = logging.getLogger()
+log.debug('this is a debug message')
+```
+
 =============
 
 For the logging module, make sure to have a logs/ directory if using log files. Here is an example: 
