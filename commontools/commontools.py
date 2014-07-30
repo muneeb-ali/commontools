@@ -25,7 +25,6 @@ def setup_logging(
 
     current_dir =  os.path.abspath(os.path.dirname(__file__))
     
-    print current_dir
     file_path = current_dir + '/' + file_name 
 
     if os.path.exists(file_path):

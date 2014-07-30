@@ -15,3 +15,7 @@ from .commontools import pretty_dump, pretty_print
 from .commontools import utf8len
 from .commontools import get_json, get_string
 from .commontools import error_reply
+
+import logging
+setup_logging()
+log = logging.getLogger()
