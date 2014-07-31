@@ -35,6 +35,10 @@ def setup_logging(
     else:
         logging.basicConfig(level=default_level)
 
+    #stop logs from requests
+    requests_log = logging.getLogger("requests")
+    requests_log.setLevel(logging.WARNING)
+
 #-------------------------
 def pretty_dump(input):
 
