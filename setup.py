@@ -11,7 +11,7 @@ from setuptools import setup
 
 setup(
 	name='commontools',
-	version='0.1.0',
+	version='0.1.1',
 	url='https://github.com/muneeb-ali/commontools',
 	license='MIT',
 	author='Muneeb Ali (@muneeb)',
