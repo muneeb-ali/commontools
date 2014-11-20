@@ -86,4 +86,4 @@ def error_reply(msg, code = -1):
     reply = {}
     reply['status'] = code
     reply['error'] = msg
-    return pretty_dump(reply)
+    return reply
